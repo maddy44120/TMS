@@ -1,0 +1,80 @@
+.Screen {
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px;
+  color: rgb(20, 73, 220);
+  border: 1px solid rgb(231, 217, 217);
+  border-radius: 5px;
+}
+
+.Screen1 {
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  color: brown;
+}
+
+.Screen2 {
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Screen3 {
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.ctn-jumbotron {
+  background: url('Images/contactus.avif')
+    top center fixed;
+  background-size: cover;
+  /* margin-top: 1em; */
+  /* padding-top: 10em; */
+
+  /* padding: 3em; */
+  box-shadow: inset 10px 10px 200px rgb(0, 0, 0);
+  text-shadow: 1px 1px rgb(46, 44, 44);
+  background-color: rgb(163, 142, 142);
+  margin-bottom: -1em;
+}
+.contact-title-color {
+  color: rgb(224, 255, 51);
+}
+
+.contact-us-details-color {
+  color: white;
+}
+.nav-role {
+  margin-right: 29px;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(119, 230, 238) !important;
+}
+.carLogo {
+  text-decoration: none;
+  color: rgb(0, 0, 0) !important;
+}
+.signInErr {
+  margin-left: 25px;
+}
+
+.container {
+  padding: 0px;
+}
+
+.title {
+  text-align: center;
+}
+/* Footer CSS */
+.footer {
+  padding: 10px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
