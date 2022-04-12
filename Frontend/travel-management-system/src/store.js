@@ -1,6 +1,6 @@
-import { applyMiddleware, combineReducers, createStore } from 'redux'
-import { composeWithDevTools } from 'redux-devtools-extension'
-import logger from 'redux-logger'
+import { applyMiddleware, combineReducers, createStore, compose } from 'redux'
+// import { composeWithDevTools } from 'redux-devtools-extension'
+// import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 import {
   SignInReducer,
@@ -15,6 +15,10 @@ import {
 import { AdminReducer } from './Reducers/AdminReducer'
 import { CarListReducer } from './Reducers/CarReducer'
 
+const initialState = {}
+const middleWare = [thunk];
+let store;
+
 const reducers = combineReducers({
   userSignin: SignInReducer,
   userSignup: SignUpReducer,
@@ -28,9 +32,8 @@ const reducers = combineReducers({
   paymentHistory: PaymentHistoryReducer
 })
 
-const store = createStore(
-  reducers,
-  composeWithDevTools(applyMiddleware(logger, thunk))
-)
+  store = createStore(reducers,initialState,
+  compose(applyMiddleware(...middleWare)))
 
-export default store
+
+export default store;

@@ -14,7 +14,7 @@
 	<name>TravelManagementSystem</name>
 	<description>Travel Management System Spring Boot Project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/musicdb" />
             <property name="javax.persistence.jdbc.user" value="root" />

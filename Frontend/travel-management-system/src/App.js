@@ -21,6 +21,7 @@ import UserBookingListScreen from './Screens/Employee/UserBookingListScreen'
 import PaymentFormScreen from './Screens/User/PaymentScreen'
 import FeedbackHistoryScreen from './Screens/Admin/FeedbackHistoryScreen'
 import PaymentHistoryScreen from './Screens/Admin/PaymentHistoryScreen';
+import 'react-app-polyfill/stable';
 
 function App() {
   return (
